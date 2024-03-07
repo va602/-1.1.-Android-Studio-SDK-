@@ -1,0 +1,29 @@
+#Шаги выполнения:
+
+#1. Создать новый проект Android Studio.
+#2. В файле strings.xml заменить строку "Hello, World!" на "NMedia!"
+#3. В файле build.gradle изменить applicationId на "ru.netology.nmedia".
+#4. Установить minSdkVersion на 23 в файле build.gradle.
+#5. Создать репозиторий на GitHub.
+#6. Настроить GitHub Actions для автоматической сборки проекта.
+#7. Отправить ссылку на репозиторий в личном кабинете студента.
+
+#Код:
+#hml
+<!-- strings.xml -->
+<resources>
+    <string name="app_name">NMedia!</string>
+</resources>
+
+#gradle
+// build.gradle
+android {
+    ...
+    defaultConfig {
+        ...
+        minSdkVersion 23
+    }
+}
+
+
+#После выполнения этих шагов у вас должен быть проект с текстовой надписью "NMedia!" на экране.
